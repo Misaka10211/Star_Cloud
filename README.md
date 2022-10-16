@@ -6,6 +6,7 @@ Smart Cloud Robot
 Arduino NANO  
 8*8热成像模块 AMG8833  
 2路直流电机驱动模块 DRV8833  
+https://blog.csdn.net/qq_44897194/article/details/105524808  
 空心杯电机  
 G51锂电池太阳能充电板  
 锂电池1000mAh  
