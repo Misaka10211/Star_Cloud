@@ -4,6 +4,7 @@ Smart Cloud Robot
 
 **【硬件 Hardware】**  
 Arduino NANO  
+3.7V-5V 稳压模块
 8*8热成像模块 AMG8833  
 2路直流电机驱动模块 DRV8833  
 https://blog.csdn.net/qq_44897194/article/details/105524808  
@@ -22,3 +23,20 @@ G51锂电池太阳能充电板
 - [x] 热成像识别算法
 - [ ] 飞控程序
 - [ ] 气压限高控制
+
+**接线**  
+*Arduino NANO*  
+VIN -- 5V out(稳压模块)  
+GND -- GND (稳压模块)  
+
+*AMG8833*  
+SCL -- A5(SCL)  
+SDA -- A4(SDA)  
+VCC -- 5V  
+GND -- GND  
+
+*DVR8833*  
+M1in -- 5  
+M2in -- 6  
+M3in -- 7  
+M4in -- 8  
